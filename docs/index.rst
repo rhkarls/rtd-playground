@@ -1,17 +1,27 @@
-.. rhk-rtd-playground documentation master file, created by
-   sphinx-quickstart on Wed Sep  4 13:04:32 2024.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Welcome to xyz's documentation!
+===============================
 
-rhk-rtd-playground documentation
-================================
+**XYZ** 
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+Check out the :doc:`topic_A/topic-a-index` section for written in restructured text. Or :doc:`topic_B/topic-b-index` written in MyST markdown.
+Here is a reference to inside topic_b :ref:`header2-label`.
 
+Link to topi_c :ref:`sondera:modindex`, linked with an external api doc source.
+
+
+.. note::
+
+   This project is for testing purposes only
+
+Contents rst
+------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
+
+   Home <self>
+   topic_A/topic-a-index
+   topic_B/topic-b-index
+
 

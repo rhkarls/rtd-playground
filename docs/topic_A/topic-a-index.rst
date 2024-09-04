@@ -18,18 +18,18 @@ First write some code
 
     import calendar
 
-	yy = 2024  # year
-	mm = 08    # month
+    yy = 2024  # year
+    mm = 08    # month
 
-	# display the calendar
-	print(calendar.month(yy, mm))
+    # display the calendar
+    print(calendar.month(yy, mm))
 
 
 
 Another heading level
 ---------------------
 
-Some more text.
+Some more text. Link here to topic b :ref:`header2-label`
 
 .. note::
 
